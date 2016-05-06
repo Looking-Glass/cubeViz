@@ -1,0 +1,16 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+
+    #ifdef DEBUG
+        #define DLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+    #else
+        #define DLog( s, ... )
+    #endif
+
+#endif

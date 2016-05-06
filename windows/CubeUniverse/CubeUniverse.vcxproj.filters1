@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CircleButton1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="comm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DfuTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DfuToolDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt\getopt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="registry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CircleButton1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="comm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DfuTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt\getopt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="registry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DfuToolDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\bk.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DfuTool.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DfuTool.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Lamp1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampYellow24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Lamp2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Lamp9.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampBlue24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampGray24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampGreen16.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampGreen24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampRed16.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampRed24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampYellow16.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\unknow.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\rt_manif.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{277e806f-b806-471e-8cb4-9caedc9c0a2e}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{7ec4fe8d-7949-4793-b151-06fc9f3d14a9}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{2a7174d5-8b17-44a6-bf0c-179737221d6f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DfuTool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

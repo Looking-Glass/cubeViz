@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CircleButton1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DfuTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DfuToolDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt\getopt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="registry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DfuHelpView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="comm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CircleButton1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DfuTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DfuToolDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt\getopt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="registry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DfuHelpView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="comm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DfuTool.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DfuTool.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Lamp1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Lamp2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Lamp9.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampBlue24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampGray24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampGreen16.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampGreen24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampRed16.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampRed24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampYellow16.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LampYellow24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="res\readme.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DFU_mode.gif">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DfuTool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\rt_manif.manifest" />
+  </ItemGroup>
+</Project>

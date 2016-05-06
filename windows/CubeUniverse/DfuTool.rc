@@ -1,0 +1,380 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\DfuTool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DfuTool.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_UNKNOW       BITMAP                  "res\\unknow.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG_BK              PNG                     "res\\bk.png"
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LAMPRED             BITMAP                  "res\\Lamp1.bmp"
+IDB_LAMPGREEN           BITMAP                  "res\\Lamp2.bmp"
+IDB_LAMPGRAY            BITMAP                  "res\\Lamp9.bmp"
+IDB_LAMPGRAY24          BITMAP                  "res\\LampGray24.bmp"
+IDB_LAMPGREEN24         BITMAP                  "res\\LampGreen24.bmp"
+IDB_LAMPRED24           BITMAP                  "res\\LampRed24.bmp"
+IDB_LAMPGREEN16         BITMAP                  "res\\LampGreen16.bmp"
+IDB_LAMPRED16           BITMAP                  "res\\LampRed16.bmp"
+IDB_LAMPYELLOW16        BITMAP                  "res\\LampYellow16.bmp"
+IDB_LAMPYELLOW24        BITMAP                  "res\\LampYellow24.bmp"
+IDB_LAMPBLUE24          BITMAP                  "res\\LampBlue24.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About cubeviz"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "cubeviz, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_DFUTOOL_DIALOG DIALOGEX 0, 0, 399, 290
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "L3D Cube Firmwre Update Tool V1.0"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "AUTO",IDC_BTN_AUTO,338,58,38,16,BS_MULTILINE
+    LTEXT           "Select firmware part-1:",IDC_STATIC,7,87,75,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,83,87,227,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_BROWSE1,311,86,17,14
+    PUSHBUTTON      "UPDATE",IDC_BTN_UPDATE1,338,85,38,16,BS_MULTILINE
+    CONTROL         "",IDC_BTN_UPDATELAMP1,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,379,88,13,13
+    LTEXT           "No firmware part-1? click download from website:",IDC_STATIC,7,103,161,12,SS_CENTERIMAGE
+    PUSHBUTTON      "DOWNLOAD",IDC_BTN_DOWNLOAD1,173,102,51,14,BS_MULTILINE
+    CTEXT           "",IDC_STATIC_LENINFO1,240,103,70,12,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "",IDC_STATIC_LENINFO4,312,103,64,12,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Select firmware part-2:",IDC_STATIC,7,120,75,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT2,83,120,227,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_BROWSE2,311,119,17,14
+    PUSHBUTTON      "UPDATE",IDC_BTN_UPDATE2,338,118,38,16,BS_MULTILINE
+    CONTROL         "",IDC_BTN_UPDATELAMP2,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,379,121,13,13
+    LTEXT           "No firmware part-2? click download from website:",IDC_STATIC,7,136,161,12,SS_CENTERIMAGE
+    PUSHBUTTON      "DOWNLOAD",IDC_BTN_DOWNLOAD2,173,135,51,14,BS_MULTILINE
+    CTEXT           "",IDC_STATIC_LENINFO2,240,136,70,12,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "",IDC_STATIC_LENINFO5,312,136,64,12,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Select user app:",IDC_STATIC,7,153,75,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT3,83,153,227,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_BROWSE3,311,152,17,14
+    PUSHBUTTON      "UPDATE",IDC_BTN_UPDATE3,338,151,38,16,BS_MULTILINE
+    CONTROL         "",IDC_BTN_UPDATELAMP3,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,379,154,13,13
+    LTEXT           "No user app? click here to download demo loop:",IDC_STATIC,7,169,161,12,SS_CENTERIMAGE
+    PUSHBUTTON      "DOWNLOAD",IDC_BTN_DOWNLOAD3,173,168,51,14,BS_MULTILINE
+    CTEXT           "",IDC_STATIC_LENINFO3,240,169,70,12,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "",IDC_STATIC_LENINFO6,312,169,64,12,SS_CENTERIMAGE | SS_SUNKEN
+    PUSHBUTTON      "Exit",IDOK,341,168,51,17,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_PROMPT,7,186,385,89,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "",IDC_STATIC_PROMPT,4,201,389,11,SS_CENTERIMAGE | SS_SUNKEN | NOT WS_VISIBLE
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,4,278,389,11
+    CTEXT           "L3D Cube Firmwre Update Tool V1.0",IDC_STATIC_TITLE,7,4,385,19,SS_CENTERIMAGE
+    LTEXT           "",IDC_STATIC_NOTE,7,28,331,54
+    PUSHBUTTON      "Install Libusbk",IDC_BTN_INSTALLLIBUSBK,338,34,51,16,BS_MULTILINE
+    CONTROL         "",IDC_BTN_DFULAMP,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,356,12,18,17
+    GROUPBOX        "DFU mode",IDC_STATIC,338,1,51,30,NOT WS_VISIBLE
+END
+
+IDD_HELP_VIEW DIALOGEX 0, 0, 309, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DFUTOOL_DIALOG_ONEKEY DIALOGEX 0, 0, 475, 266
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "cubeviz V1.0"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_PROMPT,247,221,174,12,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "",IDC_STATIC_WORKINFO,7,255,461,9,SS_CENTERIMAGE | NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_CURFILE,7,245,461,9,SS_CENTERIMAGE | NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO_DEVLIST,8,186,181,95,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "ListAll",IDC_BTN_LISTALL,192,187,39,23,NOT WS_VISIBLE
+    PUSHBUTTON      "Install",IDC_BTN_INSTALL,85,216,39,16,NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO_COMM,8,201,181,95,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Dfu Mode",IDC_BTN_TODFUMODE,39,216,39,16,NOT WS_VISIBLE
+    CONTROL         "<a>SysLink1</a>",IDC_SYSLINK1,"SysLink",NOT WS_VISIBLE | WS_TABSTOP,7,232,326,10
+    CONTROL         "<a>SysLink1</a>",IDC_SYSLINK2,"SysLink",NOT WS_VISIBLE | WS_TABSTOP,7,243,326,10
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_SINGLESEL | WS_TABSTOP,231,7,237,206
+    PUSHBUTTON      "InstallDFU",IDC_BTN_INSTALLDFU,133,216,46,16,NOT WS_VISIBLE
+    LISTBOX         IDC_LIST_FILE,7,106,109,73,LBS_SORT | LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DFUHELP_VIEW DIALOGEX 0, 0, 309, 260
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC_NOTE,7,7,295,88
+END
+
+IDD_WAITING_DLG DIALOGEX 0, 0, 303, 135
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "LOADING",IDC_STATIC_WORKING,21,27,60,20,SS_CENTERIMAGE
+    CONTROL         "",IDC_STATIC_PROGRESS,"Static",SS_BLACKFRAME,82,27,201,20
+    CTEXT           "You have selected to play",IDC_STATIC_INFO1,7,66,289,18
+    CTEXT           "You are now saving this visualization to your cube.\nIt will replace the existing visualization.",IDC_STATIC_INFO2,7,84,289,30
+    CTEXT           "",IDC_STATIC_INFO3,7,112,289,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "LookingGlass Co.,Ltd."
+            VALUE "FileDescription", "cubeviz"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "cubeviz.exe"
+            VALUE "LegalCopyright", "LookingGlass Co.,Ltd.  All rights reserved."
+            VALUE "OriginalFilename", "cubeviz.exe"
+            VALUE "ProductName", "cubeviz"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "res\\rt_manif.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_DFUTOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 392
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 289
+    END
+
+    IDD_HELP_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DFUTOOL_DIALOG_ONEKEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 468
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 262
+    END
+
+    IDD_DFUHELP_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_WAITING_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUPMENU1 MENU
+BEGIN
+    POPUP "popmenu1"
+    BEGIN
+        MENUITEM "Refresh List",                IDM_REFRESHLISTBIN
+    END
+    POPUP "popmenu2"
+    BEGIN
+        MENUITEM "Refresh List",                IDM_REFRESHLISTBIN
+        MENUITEM SEPARATOR
+        MENUITEM "Update Cube",                 IDM_UPDATECUBE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About cubeviz..."
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\DfuTool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
